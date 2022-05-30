@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity">
+
+    <TextView
+        android:id="@+id/todaysGoalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Goal"
+        android:textColor="#5E5E5E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        app:layout_constraintTop_toBottomOf="@+id/todaysDatelTextView" />
+
+    <TextView
+        android:id="@+id/todaysDatelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Date"
+        android:textColor="#5E5E5E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        app:layout_constraintTop_toBottomOf="@+id/title_textView" />
+
+    <TextView
+        android:id="@+id/for_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="for"
+        android:textColor="#5E5E5E"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        app:layout_constraintTop_toBottomOf="@+id/todaysGoalTextView"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/setGoal_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap to set goal"
+        android:textColor="#5E5E5E"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/newGoalBtn"
+        app:layout_constraintStart_toStartOf="@+id/newGoalBtn"
+        app:layout_constraintTop_toBottomOf="@+id/newGoalBtn"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/kickGoal_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap when complete!"
+        android:textColor="#5E5E5E"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/kickBtn"
+        app:layout_constraintStart_toStartOf="@+id/kickBtn"
+        app:layout_constraintTop_toBottomOf="@+id/kickBtn"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/CompleteGoal_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goal Completed for today!"
+        android:textColor="#5E5E5E"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/kickBtn"
+        app:layout_constraintStart_toStartOf="@+id/kickBtn"
+        app:layout_constraintTop_toBottomOf="@+id/kickBtn"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TODAY'S GOAL TO KICK"
+        android:textColor="#5E5E5E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/todaysDurationlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Duration"
+        android:textColor="#5E5E5E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        app:layout_constraintTop_toBottomOf="@+id/for_textView" />
+
+    <Button
+        android:id="@+id/newGoalBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="198dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/ic_set_task"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/historyBtn"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/kickBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="198dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/ic_kickbtn"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/historyBtn"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="HISTORY"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/noGoal_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="NO GOAL"
+        android:textColor="#5E5E5E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/title_textView"
+        app:layout_constraintStart_toStartOf="@+id/title_textView"
+        app:layout_constraintTop_toBottomOf="@+id/title_textView"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/change_goal_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.4"
+        android:text="CHANGE GOAL"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/kickBtn"
+        app:layout_constraintEnd_toEndOf="@+id/kickBtn"
+        app:layout_constraintStart_toStartOf="@+id/kickBtn"
+        app:layout_constraintTop_toBottomOf="@+id/todaysDurationlTextView"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/undo_goal_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.4"
+        android:text="UNDO"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/kickBtn"
+        app:layout_constraintEnd_toEndOf="@+id/kickBtn"
+        app:layout_constraintStart_toStartOf="@+id/kickBtn"
+        app:layout_constraintTop_toBottomOf="@+id/todaysDurationlTextView"
+        tools:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

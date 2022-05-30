@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KICKING GOALS</string>
+    <string name="minutes_label">mins</string>
+    <string name="info_screen_text1">Welcome!</string>
+    <string name="info_screen_text2">They say a journey of a thousand steps begins with one.</string>
+    <string name="info_screen_text3">Kicking goals is designed to empower you to take your journey, one tiny goal at a time.</string>
+    <string name="info_screen_text4">The idea of completing a goal is to leave you with the power of having accomplished something meaningful at the end of the day; and waking up tomorrow, knowing that you\'ve moved foward.</string>
+    <string name="info_screen_text5">We hope Kicking Goals will help you in yours!</string>
+    <string name="info_screen_text7">How to get the best out of this app.</string>
+    <string name="info_screen_text8">Only one goal can be completed per day. Again the idea is that you are making small steps towards your aspirations.</string>
+    <string name="info_screen_text9">If a goal was too hard too complete, try shrinking it so it can be done. </string>
+    <string name="info_screen_text10">For example, if exercising for 20mins is a bit much, reduce it to 10mins, too hard still, then 5mins.</string>
+    <string name="info_screen_text11">The goal should be small enough that you can do it daily, and do it consistently. Once you find you can do a goal consistently, then look at increasing the duration.</string>
+    <string name="info_screen_text12">Hope you enjoy the app and look foward to kicking goals each day!</string>
+
+    <string name="todays_goal">TODAY\'S GOAL TO KICK...</string>
+    <string name="set_todays_goal">SET TODAY\'S GOAL</string>
+    <string name="kick">Kick goal!</string>
+    <string name="read">Read</string>
+    <string name="reflect">Reflect</string>
+    <string name="minutes"> Minutes</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viewgoal_page">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ViewGoal_PAGE">
+        <activity
+            android:name=".SetGoalActivity"
+            android:parentActivityName=".MainPageActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".MainPageActivity"
+            android:label=""
+            android:exported="false"/>
+        <activity
+            android:name=".InfoScreenActivity"
+            android:parentActivityName=".MainPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoScreenActivity2"
+            android:parentActivityName=".InfoScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomGoalActivity"
+            android:exported="true"
+            android:parentActivityName=".SetGoalActivity"
+            android:label="Custom Goal" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false"
+            android:parentActivityName=".CustomGoalActivity" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:parentActivityName=".CustomGoalActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

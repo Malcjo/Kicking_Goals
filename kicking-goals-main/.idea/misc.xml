@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/add_goal_drawable.xml" value="0.3828125" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/button_format.xml" value="0.1" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/congratsbg_toast.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/editText_format.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/goal_verificationbg_toast.xml" value="0.3828125" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_back.xml" value="0.3828125" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_delete.xml" value="0.3685185185185185" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_kickBtn.xml" value="0.34" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_kickbtn.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_kicking_goals.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_kicking_goals_picture.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_set_task.xml" value="0.3671875" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_tick.xml" value="0.3828125" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/ic_toastface.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/drawable/startpage_bg.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_custom_goal.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_history.xml" value="0.4511742892459827" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_info_screen.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_info_screen2.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_main.xml" value="0.35597826086956524" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_main_page.xml" value="0.5" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_set_goal.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/activity_update.xml" value="0.67" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/congrats_toast.xml" value="0.5" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/goal_verification_toast.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/my_row.xml" value="0.1" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/startpage_layout.xml" value="0.25" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/layout/startup_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/menu/delete_menu.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/menu/main_page_menu.xml" value="0.33" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/UpdateViewGoal_PAGE/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/ViewGoal_PAGE/app/src/main/res/layout/activity_history.xml" value="0.5" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/ViewGoal_PAGE/app/src/main/res/layout/activity_main.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/lebit/AndroidStudioProjects/ViewGoal_PAGE/app/src/main/res/layout/my_row.xml" value="0.67" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
